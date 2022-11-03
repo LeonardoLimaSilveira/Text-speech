@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", "Helvetica Neue";
+
+}
+body{
+  background-color: rgb(63, 80, 228);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  font-family: "Open Sans", "Helvetica Neue";
+  font-size: 20px;
+
+}
+.title-text{
+  margin-top: 20px;
+}
+form{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#area{
+  resize: none;
+  min-width: 90%;
+  height: 150px;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Open Sans", "Helvetica Neue";
+}
+select{
+  padding: 10px 30px; 
+  border-radius: 5px;
+  
+}
+button{
+  padding: 13px 50px; 
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(80, 142, 235);
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+button:hover{
+  background-color:rgb(28, 114, 241) ;
+}
